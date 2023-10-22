@@ -1,0 +1,9 @@
+build --cxxopt='-std=c++20'
+build --cxxopt='-Werror'
+build --cxxopt='-Wall'
+build --cxxopt='-O3'
+build --color=yes
+
+
+test --cxxopt='-O0'
+test --cxxopt='-g'

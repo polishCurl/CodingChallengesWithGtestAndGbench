@@ -21,7 +21,7 @@ This project also demonstrates how to glue modern C++, gtest and Google benchmar
 
 Build all tests and benchmarks:
 ```
-bazel build -c opt //...
+bazel build //...
 ```
 
 Clean all build artifacts:
