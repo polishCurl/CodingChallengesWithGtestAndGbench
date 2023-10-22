@@ -5,6 +5,7 @@ Implementation for a number of problem solving questions taken from the [Leetcod
 2. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 3. [Two Sum](https://leetcode.com/problems/two-sum/)
 4. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+5. [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 
 Each solution was unit-tested using the Google Test Framework (gtest) and Google benchmark.
 
