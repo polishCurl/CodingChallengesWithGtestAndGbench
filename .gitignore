@@ -4,3 +4,7 @@ bazel-out
 bazel-testlogs
 .DS_Store
 .vscode
+genhtml
+*.dat
+*.html
+*.png
