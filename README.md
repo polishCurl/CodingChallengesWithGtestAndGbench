@@ -9,12 +9,16 @@ Implementation for a number of problem solving questions taken from the [Leetcod
 
 Each solution was unit-tested using the Google Test Framework (gtest) and Google benchmark.
 
-This project also demonstrates how to glue modern C++, gtest and Google benchmark using the Bazel build system.
+This project also demonstrates:
+1. How to glue modern C++, gtest and Google benchmark using the Bazel build system.
+2. How to generate code coverage reports using Bazel
 
 ## Prerequisites
 1. [Bazel](https://github.com/bazelbuild/bazel)
 2. [Google Test](https://github.com/google/googletest)
 3. [Google Bench](https://github.com/google/benchmark)
+4. gcov
+5. lcov
 
 
 # Example commands
@@ -37,4 +41,10 @@ bazel test --test_output=all  //...
 Execute one of the benchmarks:
 ```
 ./bazel-bin/ValidParentheses/bench/valid_parentheses_map_bench
+```
+
+Generate code coverage report for all unit tests and put it in `genhtml` directory:
+```
+bazel coverage //...
+genhtml bazel-out/_coverage/_coverage_report.dat -o genhtml
 ```
