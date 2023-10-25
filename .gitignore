@@ -2,4 +2,4 @@ bazel-bin
 bazel-CodingChallengesWithGtestAndGbench
 bazel-out
 bazel-testlogs
-EvaluateReversePolishNotation/.DS_Store
+.DS_Store
